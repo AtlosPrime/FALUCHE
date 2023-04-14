@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/AtlosPrime/FALUCHE/faluche-stadium.png">
     <img src="faluche-stadium.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -43,20 +43,15 @@ To get a local copy up and running follow these simple example steps.
 ## Roadmap
 
 - [ ] Faire le modèle 3D de la Faluche
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Sous licence CECILL
+`LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
