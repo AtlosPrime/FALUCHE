@@ -16,8 +16,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Il s'agit d'un site internet qui permet de visualiser une faluche et ses différentes modifications selon le code d'une ville.
-Pour l'instant, le projet est concentré sur une simulation d'une faluche selon le code Toulousain.
+Il s'agit d'un site internet qui permet de visualiser une faluche et ses différentes modifications selon le code d'une ville.<br/>
+Pour l'instant, le projet est concentré sur une simulation d'une faluche selon le code Toulousain.<br/>
 Des fonctionnalités pour simuler une faluche d'une autre ville seront ajoutés à l'avenir.
 
 <!-- GETTING STARTED -->
