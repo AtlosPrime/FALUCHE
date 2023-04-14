@@ -37,7 +37,7 @@ Des fonctionnalités pour simuler une faluche d'une autre ville seront ajoutés 
 
 AtlosPrime - Atlos@outlook.fr
 
-Project Link: [https://github.com/AtlosPrime/FALUCHE](https://github.com/AtlosPrime/FALUCHE)
+Lien du projet : [https://github.com/AtlosPrime/FALUCHE](https://github.com/AtlosPrime/FALUCHE)
 
 
 
