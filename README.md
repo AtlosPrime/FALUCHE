@@ -43,7 +43,7 @@ Lien du projet : [https://github.com/AtlosPrime/FALUCHE](https://github.com/Atlo
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Remerciements
 
 * []()
 * []()
