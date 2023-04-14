@@ -20,18 +20,11 @@ Il s'agit d'un site internet qui permet de visualiser une faluche et ses différ
 Pour l'instant, le projet est concentré sur une simulation d'une faluche selon le code Toulousain.<br/>
 Des fonctionnalités pour simuler une faluche d'une autre ville seront ajoutés à l'avenir.
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-
-<!-- ROADMAP -->
-## Roadmap
+<!-- Feuille de route -->
+## Feuille de route
 
 - [ ] Faire le modèle 3D de la Faluche
-
 
 
 
