@@ -30,7 +30,6 @@
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -45,26 +44,19 @@ To get a local copy up and running follow these simple example steps.
 - [ ] Faire le modèle 3D de la Faluche
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## License
-
-Sous licence CECILL
-`LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+AtlosPrime - Atlos@outlook.fr
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/AtlosPrime/FALUCHE](https://github.com/AtlosPrime/FALUCHE)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
