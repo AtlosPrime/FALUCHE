@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Modèle 3D avec Three.js</title>
+      <script src="three.min.js"></script>
+      <script src="OrbitControls.js"></script>
+      <style>
+         body {
+         margin: 0;
+         padding: 0;
+         overflow: Visible;
+         }
+         #canvas-container {
+         position: relative;
+         background-color: blanchedalmond;
+         width: 50%;
+         height: 0;
+         padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+         }
+         canvas {
+         top: 0;
+         left: 0;
+         width: 50%;
+         height: 50%;
+         }
+      </style>
+   </head>
+   <header>
+      <h1 style="text-align:center;font-family:Consolas" class="logo">FALUCHE</h1>
+   </header>
+   <body>	
+        <div>
+            <div id="canvas-container"></div>
+            <canvas>
+               <script src="3d.js"></script>
+            </canvas>
+        </div>
+    <footer>
+         <p>Ceci est mon bas de page</p>
+    </footer>
+   </body>
+</html>
+
+
+

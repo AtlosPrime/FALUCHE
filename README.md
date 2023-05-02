@@ -25,6 +25,8 @@ Des fonctionnalités pour simuler une faluche d'une autre ville seront ajoutés 
 ## Feuille de route
 
 - [ ] Faire le modèle 3D de la Faluche
+- [ ] Faire la simulation a plat
+- [ ] Commencer la carte
 
 
 
