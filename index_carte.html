@@ -31,6 +31,7 @@
 </head>
 <body>
  <div id="map"></div>
+ <script type="text/javascript" src="eu-countries.js"></script>
  <script>
 
 var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -49,6 +50,16 @@ var map = L.map('map', {
     zoom: 5,
 		layers: [osm],
 });
+
+map.createPane('labels');
+map.getPane('labels').style.zIndex = 650;
+map.getPane('labels').style.pointerEvents = 'none';
+	geojson = L.geoJson(euCountries).addTo(map);
+	
+	geojson.eachLayer(function (layer) {
+		layer.bindPopup(layer.feature.properties.name);
+	});
+
 
 	var baseMaps = {
     "OpenStreetMap": osm,
