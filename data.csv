@@ -1,22 +1,22 @@
-Title;Latitude;Longitude;Asso;Asso_Desc;Congres
-Toulouse;43.60;1.44;FETT;Faluche et Traditions Toulousaine;Acte X
-Valenciennes;50.357;3.523;AVaCHE;Association Valenciennoise de la Culture de l'Histoire Estudiantine;Nom_du_congres
-Belfort;47.637;6.862;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Bordeaux;44.841;-0.580;BAF;Description_Acronyme;Nom_du_congres
-Lille;50.636;3.063;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Paris;48.853;2.348;ALF;Description_Acronyme;Nom_du_congres
-Marseille;43.296;5.369;Nom_Asso_Falucharde;Description_Acronyme;WESH
-Montpellier;43.611;3.876;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Strasbourg;48.584;7.750;AFA;Association Falucharde Alsacienne;Nom_du_congres
-Troyes;48.297;4.074;FLUTES;Description_Acronyme;Nom_du_congres
-Rennes;48.111; -1.680;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Brest;48.390;-4.486;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Nantes;47.218;-1.554;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Nancy;48.693;6.183;GNARF;Description_Acronyme;Nom_du_congres
-Metz;49.119;6.176;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres
-Grenoble;45.187;5.735;FLEM;Description_Acronyme;Nom_du_congres
-Lyon;45.757;4.832;FALUS;Description_Acronyme;Nom_du_congres
-Aix-en-Provence;43.529;5.447;AIEA;Description_Acronyme;Nom_du_congres
-Dijon;47.321;5.041;Nom_Asso_Falucharde;Description_Acronyme;WEB
-Bayonne;43.494;-1.473;Nom_Asso_Falucharde;Description_Acronyme;La Pauyonnie
-Pau;43.295;-0.368;Nom_Asso_Falucharde;Description_Acronyme;La Pauyonnie
+Title,Latitude,Longitude,Asso,Asso_Desc,Congres
+Toulouse,43.60,1.44,FETT,Faluche et Traditions Toulousaine,Acte X
+Valenciennes,50.357,3.523,AVaCHE,Association Valenciennoise de la Culture de l'Histoire Estudiantine,Nom_du_congres
+Belfort,47.637,6.862,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Bordeaux,44.841,-0.580,BAF,Description_Acronyme,Nom_du_congres
+Lille,50.636,3.063,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Paris,48.853,2.348,ALF,Description_Acronyme,Nom_du_congres
+Marseille,43.296,5.369,Nom_Asso_Falucharde,Description_Acronyme,WESH
+Montpellier,43.611,3.876,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Strasbourg,48.584,7.750,AFA,Association Falucharde Alsacienne,Nom_du_congres
+Troyes,48.297,4.074,FLUTES,Description_Acronyme,Nom_du_congres
+Rennes,48.111, -1.680,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Brest,48.390,-4.486,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Nantes,47.218,-1.554,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Nancy,48.693,6.183,GNARF,Description_Acronyme,Nom_du_congres
+Metz,49.119,6.176,Nom_Asso_Falucharde,Description_Acronyme,Nom_du_congres
+Grenoble,45.187,5.735,FLEM,Description_Acronyme,Nom_du_congres
+Lyon,45.757,4.832,FALUS,Description_Acronyme,Nom_du_congres
+Aix-en-Provence,43.529,5.447,AIEA,Description_Acronyme,Nom_du_congres
+Dijon,47.321,5.041,Nom_Asso_Falucharde,Description_Acronyme,WEB
+Bayonne,43.494,-1.473,Nom_Asso_Falucharde,Description_Acronyme,La Pauyonnie
+Pau,43.295,-0.368,Nom_Asso_Falucharde,Description_Acronyme,La Pauyonnie
