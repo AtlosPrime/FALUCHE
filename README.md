@@ -15,15 +15,24 @@
 
 ## A propos du projet
 
-Il s'agit d'un site internet qui permet de visualiser une faluche et ses différentes modifications selon le code d'une ville.<br/>
-Pour l'instant, le projet est concentré sur une simulation d'une faluche selon le code Toulousain.<br/>
-Des fonctionnalités pour simuler une faluche d'une autre ville seront ajoutés à l'avenir.
+Outre promouvoir la faluche, son folklore, le projet a plusieurs objectifs principaux:
+
+- Pouvoir à l'aide d'une carte repérer toutes les villes universitaires avec les différentes associations faluchardes indiqués entre autres.
+- Pouvoir générer des aplats d'une faluche avec ses attributs automatiquement.
+- Pouvoir générer un modèle 3D d'une faluche avec ses attributs automatiquement.
+
+Le but étant de convenir à tout le monde, en proposant à l'avenir TOUTES les variantes possibles et imaginables des différents codes, code oral, etc. Les premières versions tests se baseront principalement sur le code Toulousain.
+
 
 ## Feuille de route
 
+- [ ] Commencer le dévelopemment de la carte
+	- [ ] Optimiser le placements des markers 
+		- [ ] Compléter le ([CSV](https://github.com/AtlosPrime/FALUCHE/blob/main/data.csv)) des villes|assos|congres
+	- [ ] 
 - [ ] Faire le modèle 3D de la Faluche
 - [ ] Faire la simulation a plat
-- [ ] Commencer la carte
+
 
 ## Licence
 
