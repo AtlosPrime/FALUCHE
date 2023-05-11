@@ -44,7 +44,6 @@ Partie Front-End
 ## Licence
 
 ## Contact
-
 AtlosPrime - Atlos@outlook.fr
 Lien du projet : [https://github.com/AtlosPrime/FALUCHE](https://github.com/AtlosPrime/FALUCHE)
 
