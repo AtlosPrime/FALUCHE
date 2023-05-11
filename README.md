@@ -22,13 +22,12 @@ Le but étant de convenir à tout le monde, en proposant à l'avenir TOUTES les 
 
 ## Feuille de route
 Partie Carte:
-- [ ] Commencer le dévelopemment de la carte
-	- [ ] Optimiser le placements des markers 
-		- [ ] Compléter le ([CSV](https://github.com/AtlosPrime/FALUCHE/blob/main/data.csv)) des villes|assos|congres
+- [X] Commencer le dévelopemment de la carte
+	- [X] Optimiser le placements des markers 
+		- [X] Compléter le ([CSV](https://github.com/AtlosPrime/FALUCHE/blob/main/data.csv)) des villes|assos|congres
 		- [ ] Rajouter la fonctionnalité de désactiver les markers des associations faluchardes
 		- [ ] Rajouter la fonctionnalité d'avoir un historique des congrès
 		- [ ] Rajouter un layer *SECRET*
-
 
 Partie Génération et Simulation
 
