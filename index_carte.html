@@ -44,15 +44,11 @@ var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 });
 
-
-
 var map = L.map('map', {
     center: [46.5, 3.00],
     zoom: 5,
 		layers: [osm],
 });
-
-
 
 	var baseMaps = {
     "OpenStreetMap": osm,
@@ -67,14 +63,10 @@ var map = L.map('map', {
 	
 	L.control.layers(baseMaps, overlays).addTo(map);
 
-  // Read markers data from data.csv
   $.get('./data.csv', function(csvString) {
 
-    // Use PapaParse to convert string to array of objects
     var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
 
-    // For each row in data, create a marker and add it to the map
-    // For each row, columns `Latitude`, `Longitude`, and `Title` are required
     for (var i in data) {
       var row = data[i];
 
@@ -87,15 +79,13 @@ var map = L.map('map', {
 
   });
 
-
     L.control.scale({
       position: 'bottomright',
       imperial: false
     }).addTo(this.map);
 		
-		
   map.attributionControl.setPrefix(
-    '<a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">Code source</a>'
+    '<a href="https://github.com/AtlosPrime/FALUCHE" target="_blank">Code source</a>'
   );
 </script>
 </body>
