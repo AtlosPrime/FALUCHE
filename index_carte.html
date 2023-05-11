@@ -8,8 +8,13 @@
 			<meta name="author" content="Prox Acom">
 			<title>FALUCHE</title>
 			<link rel="icon" type="image/x-icon" href="faluche-stadium.png">
-			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+			<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""/>
 	    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+			  <!-- Load jQuery and PapaParse to read data from a CSV file -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
 	 </head>
 <style>
 		html, body {
@@ -17,14 +22,12 @@
 			margin: 0;
 		}
 		.leaflet-container {
-			height: 400px;
-			width: 600px;
+			height: 600px;
+			width: 800px;
 			max-width: 100%;
 			max-height: 100%;
 		}
 	</style>
-
-	
 </head>
 <body>
  <div id="map"></div>
@@ -50,48 +53,50 @@ var map = L.map('map', {
 });
 
 
-	var ass_toulouse 			= L.marker([43.60, 1.44]).addTo(map).bindPopup("<strong>Toulouse</strong></br>Association Falucharde: <b>FETT</b> (<b>F</b>aluche <b>E</b>t <b>T</b>radition <b>T</b>oulousaines"),
-			ass_valenciennes 	= L.marker([50.357, 3.523]).addTo(map).bindPopup("<strong>Valenciennes</strong></br>Association Falucharde: <b>AVaCHE</b> (<b>A</b>ssociation <b>VA</b>lenciennoise de la <b>C</b>ulture et l'<b>H</b>istoire <b>E</b>studiantine)"),
-			ass_belfort = 	L.marker([47.637, 6.862]).addTo(map).bindPopup("<strong>Belfort</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_bordeaux =	L.marker([44.841, -0.580]).addTo(map).bindPopup("<strong>Bordeaux</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_lille =	L.marker([50.636, 3.063]).addTo(map).bindPopup("<strong>Lille</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_marseille =	L.marker([43.296, 5.369]).addTo(map).bindPopup("<strong>Marseille</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_paris = L.marker([48.853, 2.348]).addTo(map).bindPopup("<strong>Paris</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_montpellier = L.marker([43.611, 3.876]).addTo(map).bindPopup("<strong>Montpellier</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_lyon = L.marker([45.757, 4.832]).addTo(map).bindPopup("<strong>Lyon</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_strasbourg = L.marker([48.584, 7.750]).addTo(map).bindPopup("<strong>Strasbourg</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_troyes = L.marker([48.297, 4.074]).addTo(map).bindPopup("<strong>Troyes</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_rennes = L.marker([48.111, -1.680]).addTo(map).bindPopup("<strong>Rennes</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_brest = L.marker([48.390, -4.486]).addTo(map).bindPopup("<strong>Brest</strong></br>Association Falucharde: <b>NOMASSO</b>"),
-			ass_nantes = L.marker([47.218, -1.554]).addTo(map).bindPopup("<strong>Nantes</strong></br>Association Falucharde: <b>NOMASSO</b>");
-	
-	var associations = L.layerGroup([ass_toulouse, ass_valenciennes, ass_belfort, ass_bordeaux, ass_lille, ass_marseille, ass_paris, ass_montpellier, ass_lyon, ass_strasbourg, ass_troyes, ass_rennes,ass_brest, ass_nantes]);
-	
+
 	var baseMaps = {
     "OpenStreetMap": osm,
 		"CartoDB_Positron":CartoDB_Positron,
 		};
 		
 	var overlays = {
-    "Associations Faluchardes": associations,
+
 };
 	
 	//Faire carte des caricatures
 	
-	L.control.layers(baseMaps, overlas).addTo(map);
+	L.control.layers(baseMaps, overlays).addTo(map);
 
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")		
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")		
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")
-	L.marker([50.34, 3.5]).addTo(map).bindPopup("<strong>VILLE</strong></br>Association Falucharde: <b>NOMASSO</b>")
+  // Read markers data from data.csv
+  $.get('./data.csv', function(csvString) {
+
+    // Use PapaParse to convert string to array of objects
+    var data = Papa.parse(csvString, {header: true, dynamicTyping: true}).data;
+
+    // For each row in data, create a marker and add it to the map
+    // For each row, columns `Latitude`, `Longitude`, and `Title` are required
+    for (var i in data) {
+      var row = data[i];
+
+      var marker = L.marker([row.Latitude, row.Longitude],{
+        opacity: 1
+      }).bindPopup("<strong>"+ row.Title +"</strong></br>Association Falucharde: " + row.Asso + " (" + row.Asso_Desc + ")" + "</br>Nom du Congrès: " + row.Congres);
+
+      marker.addTo(map);
+    }
+
+  });
 
 
     L.control.scale({
       position: 'bottomright',
       imperial: false
     }).addTo(this.map);
+		
+		
+  map.attributionControl.setPrefix(
+    '<a href="https://github.com/HandsOnDataViz/leaflet-map-csv" target="_blank">Code source</a>'
+  );
 </script>
 </body>
 </html>
