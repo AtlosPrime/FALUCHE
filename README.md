@@ -50,6 +50,6 @@ Lien du projet : [https://github.com/AtlosPrime/FALUCHE](https://github.com/Atlo
 
 ## Remerciements
 
-* Ma marraine
+* Des gens
 
 <p align="right">(<a href="#readme-top">Retour en haut</a>)</p>
