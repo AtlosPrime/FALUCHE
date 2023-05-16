@@ -33,6 +33,7 @@ header {
     margin-left: 0px;
     letter-spacing: 10px;
     background: linear-gradient(to right, #d92b2b 50%, #000000 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 400% 400%;
@@ -54,4 +55,4 @@ header {
     margin-left: 0px;
     color: #043745;
     }
-		
+	}
