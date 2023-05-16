@@ -83,7 +83,7 @@ map.getPane('labels').style.pointerEvents = 'none';
 
       var marker = L.marker([row.Latitude, row.Longitude],{
         opacity: 1
-      }).bindPopup("<strong>"+ row.Title +"</strong></br>Association Falucharde: " + row.Asso + " (" + row.Asso_Desc + ")" + "</br>Nom du Congrès: " + row.Congres);
+      }).bindPopup("<strong>"+ row.Nom_Ville +"</strong></br>Association Falucharde: " + row.Asso + " (" + row.Asso_Desc + ")" + "</br>Nom du Congrès: " + row.Congres);
 
       marker.addTo(map);
     }
