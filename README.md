@@ -17,6 +17,7 @@ Outre promouvoir la faluche, son folklore, le projet a plusieurs objectifs princ
 - Pouvoir à l'aide d'une carte repérer toutes les villes universitaires avec les différentes associations faluchardes indiqués entre autres.
 - Pouvoir générer une image d'une vue aérienne d'une faluche avec ses attributs automatiquement.
 - Pouvoir générer un modèle 3D d'une faluche avec ses attributs automatiquement.
+- Pouvoir proposer un lexique et répertiorer tout les codes pour centraliser l'information.
 
 Le but étant de convenir à tout le monde, en proposant à l'avenir TOUTES les variantes possibles et imaginables des différents codes, code oral, etc. Les premières versions tests se baseront principalement sur le code Toulousain.
 
