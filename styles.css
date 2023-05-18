@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   float: upper;
   margin-top: 0px;
   margin-left: 0px;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   background: linear-gradient(to right, #d92b2b 50%, #000000 100%);
   background-clip: text;
   -webkit-background-clip: text;

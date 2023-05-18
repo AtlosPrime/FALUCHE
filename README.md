@@ -42,6 +42,12 @@ Partie Front-End
 
 - [ ] Faire un beau site décent et beau (quand même...)
 
+## Ressources utilisés
+
+- [Leaflet](https://leafletjs.com/)
+- [France-GeoJSON](https://github.com/gregoiredavid/france-geojson)
+- [PapaParse](https://github.com/mholt/PapaParse)
+
 ## Licence
 
 ## Contact
