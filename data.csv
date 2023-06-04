@@ -1,3 +1,4 @@
+Nom_Ville;Latitude;Longitude;Asso;Asso_Desc;Congres;Siret
 Strasbourg;48.584;7.750;AFA;Amicale des Faluchards Alsaciens;Nom_du_congres;
 Brest;48.390;-4.486;AFB;Description_Acronyme;Nom_du_congres;
 Grenoble;45.187;5.735;AFG;Association Falucharde Grenobloise;L'AFG;
@@ -5,7 +6,6 @@ Aix-en-Provence;43.529;5.447;AIEA;Description_Acronyme;Nom_du_congres;
 Paris;48.853;2.348;ALF;Association Lutècienne Falucharde;WEGA;
 Limoges;45.835;1.264;ALLFA;Description_Acronyme;Nom_du_congres;
 Lille;50.636;3.063;ARE;Association Rabelaisienne Etudiante;PG (Pingouine);
-Nom_Ville;Latitude;Longitude;Asso;Asso_Desc;Congres;Siret
 Montpellier;43.611;3.876;AURJIE;Association Universitaire Des Rabelaisiens Jouissant Indépendament Des Études;L'AURJIE;
 Valenciennes;50.357;3.523;AVaCHE;Association Valenciennoise de la Culture de l'Histoire Estudiantine;WEV (Weeekend Valenciennois);
 Bordeaux;44.841;-0.580;BAF;Description_Acronyme;Les orgies;
