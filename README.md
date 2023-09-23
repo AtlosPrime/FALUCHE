@@ -28,6 +28,7 @@ Partie Carte:
 		- [X] Compléter le ([CSV](https://github.com/AtlosPrime/FALUCHE/blob/main/data.csv)) des villes|assos|congres
 		- [ ] Rajouter la fonctionnalité de désactiver les markers des associations faluchardes
 		- [ ] Rajouter la fonctionnalité d'avoir un historique des congrès
+		- [ ] Rajouter les filières / croix dans la ville 
 		- [ ] Rajouter un layer *SECRET*
 
 Partie Génération et Simulation
