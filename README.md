@@ -3,7 +3,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/AtlosPrime/FALUCHE/faluche-stadium.png">
-    <img src="faluche-stadium.png" alt="Logo" width="100" height="100">
+    <img src="images/faluche-stadium_2.png" alt="Logo" width="100" height="100">
   </a>
 <h3 align="center">FALUCHE</h3>
   <p align="center">
