@@ -38,7 +38,6 @@
 <body>
 	<div id="map"></div>
 	<script type="text/javascript" src="eu-countries.js"></script>
-	<script type="text/javascript" src="departements.geojson"></script>
 	<script>
 
 		var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -62,7 +61,6 @@
 		map.getPane('labels').style.zIndex = 650;
 		map.getPane('labels').style.pointerEvents = 'none';
 		geojson = L.geoJson(euCountries).addTo(map);
-		var geojsons = L.geoJson(departements);
 
 
 		geojson.eachLayer(function (layer) {
@@ -76,7 +74,7 @@
 		};
 
 		var overlays = {
-
+			"France": geojson
 		};
 
 		//Faire carte des caricatures
@@ -108,7 +106,6 @@
 			'<a href="https://github.com/AtlosPrime/FALUCHE" target="_blank">Code source</a>'
 		);
 
-		layerControl.addOverlay(geojsons, "France");
 	</script>
 </body>
 
