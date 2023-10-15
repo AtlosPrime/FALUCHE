@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Prox Acom">
 	<title>FALUCHE</title>
-	<link rel="icon" type="image/x-icon" href="faluche-stadium.png">
+	<link rel="icon" type="image/x-icon" href="images/faluche-stadium_2.png">
 
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
 	 crossorigin="" />
@@ -37,7 +37,8 @@
 
 <body>
 	<div id="map"></div>
-	<script type="text/javascript" src="eu-countries.js"></script>
+	<script type="text/javascript" src="geojson/France.js"></script>
+	<script type="text/javascript" src="geojson/departements.geojson"></script>
 	<script>
 
 		var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -60,10 +61,9 @@
 		map.createPane('labels');
 		map.getPane('labels').style.zIndex = 650;
 		map.getPane('labels').style.pointerEvents = 'none';
-		geojson = L.geoJson(euCountries).addTo(map);
 
-
-		geojson.eachLayer(function (layer) {
+		France_map = L.geoJson(France);
+		France_map.eachLayer(function (layer) {
 			layer.bindPopup(layer.feature.properties.name);
 		});
 
@@ -74,7 +74,7 @@
 		};
 
 		var overlays = {
-			"France": geojson
+			"France": France_map
 		};
 
 		//Faire carte des caricatures
