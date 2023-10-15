@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -6,47 +6,21 @@
 header {
   width: 100%;
   height: 5%;
-  background: linear-gradient(270deg, #000000, #ff0000, #000000);
   background-size: 600% 600%;
+  background: linear-gradient(270deg, #000000, #ff0000, #000000);
+  animation: Header 20s ease infinite;
   border-top: 1px solid gold !important;
   margin-top: 1px solid gold !important;
-  animation: Header 20s ease infinite;
   margin-top: 0;
   border-bottom: 0px solid #000000;
 }
 
-@keyframes Header {
-  0% {
-    background-position: 0% 50%
-  }
-  50% {
-    background-position: 100% 50%
-  }
-  100% {
-    background-position: 0% 50%
-  }
-}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.logo {
-  color: #fff;
-  font-weight: bold;
-  text-align: center;
-  float: upper;
-  margin-top: 0px;
-  margin-left: 0px;
-  letter-spacing: 3px;
-  background: linear-gradient(to right, #d92b2b 50%, #000000 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 400% 400%;
-  animation: Header 5s ease infinite;
-}
 
 @keyframes logo {
   0% {
@@ -62,7 +36,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Small Tablets */
 
-@media (min-width: 321px)and (max-width: 767px) {
+/* @media (min-width: 321px)and (max-width: 767px) {
   .logo {
     width: 100%;
     text-align: center;
@@ -71,5 +45,133 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 0px;
     margin-left: 0px;
     color: #043745;
+  } */ */
+
+
+/* .logo {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  float: upper;
+  margin-top: 0px;
+  margin-left: 0px;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #d92b2b 50%, #000000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: Header 5s ease infinite;
+} */
+
+
+
+
+nav {  
+background-color: red;  
+position: fixed;  
+left: 0;  
+right: 0;   
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;   
+box-shadow: 0 0 25px 0 black;  
+}  
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header {
+  padding: 20px 0;
+  background: repeating-linear-gradient(45deg, #000000, black 20px, white 20px, #000000 40px);
+  box-shadow: 0 4px 6px rgba(0,0,0,.2); 
+  /* background-size: 600% 600%;
+  background: linear-gradient(270deg, #000000, #ff0000, #000000);
+  animation: Header 20s ease infinite; */
+}
+
+@keyframes Header {
+  0% {
+    background-position: 0% 50%
   }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.logo-box {
+  float: left;
+  margin-right: 20px;
+}
+.logo-box a {
+  outline: none;
+  display: block;
+}
+.logo-box img {display: block;}
+nav {
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+  height: 70px;
+  line-height: 70px;
+  transition: .5s linear;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color: #868686;
+  text-transform: uppercase;
+}
+nav a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  background: #868686;
+  transition: width .5s linear;  
+}
+nav a:hover:after {width: 100%;}
+
+@media screen and (max-width: 660px) {
+  header {text-align: center;}
+  .logo-box {
+    float: none;
+    display: inline-block;
+    margin: 0 0 16px 0;
+  }
+  ul {float: none;}
+  nav li:first-of-type {margin-left: 0;}
+}
+@media screen and (max-width: 550px) {
+nav {overflow: visible;}
+nav li {
+  display: block;
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+}
+nav li:hover {background: rgba(0,0,0,.1);}
+nav a:after {content: none;}
 }
