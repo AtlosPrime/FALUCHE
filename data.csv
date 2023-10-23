@@ -1,11 +1,11 @@
 Nom_Ville;Latitude;Longitude;Asso;Asso_Desc;Congres;Siret
-Strasbourg;48.584;7.750;AFA;Amicale des Faluchards Alsaciens;Nom_du_congres;
+Strasbourg;48.584;7.750;AFA;Amicale des Faluchards Alsaciens;Le Banquet Européen des Étudiants ;
 Brest;48.390;-4.486;AFB;Description_Acronyme;Nom_du_congres;
 Grenoble;45.187;5.735;AFG;Association Falucharde Grenobloise;L'AFG;
 Aix-en-Provence;43.529;5.447;AIEA;Description_Acronyme;Nom_du_congres;
 Paris;48.853;2.348;ALF;Association Lutécienne Falucharde;WEGA;
 Limoges;45.835;1.264;ALLFA;Association Étudiante Inter-Filière des Faluchards de Limoges;Nom_du_congres;
-Lille;50.636;3.063;ARE;Association Rabelaisienne Etudiante;PG (Pingouine);
+Lille;50.636;3.063;ARE;Association Rabelaisienne Etudiante;La Pine Gouine;
 Montpellier;43.611;3.876;AURJIE;Association Universitaire Des Rabelaisiens Jouissant Indépendament Des Études;L'AURJIE;
 Valenciennes;50.357;3.523;AVaCHE;Association Valenciennoise de la Culture de l'Histoire Éstudiantine;WEV (Weeekend Valenciennois);
 Bordeaux;44.841;-0.580;BAF;Description_Acronyme;Les orgies;
@@ -21,7 +21,7 @@ Orléans;47.902;1.908;FOUF;Fraternité Orléannaise De L'Union Des Faluchards;La
 Belfort;47.637;6.862;La Jungle;Description_Acronyme;Nom_du_congres;
 Tours;47.390;0.688;La Rabelaisienne;Description_Acronyme;La Rabelaisienne et le Roots;
 Bayonne;43.494;-1.473;Association Pau Amicle Falucharde;Description_Acronyme;La Pauyonnie;
-Dijon;47.321;5.041;FABLE;Description_Acronyme;WEB;
+Dijon;47.321;5.041;FABLE;Faluchards Associatifs Bourguignons Libres et Épanouis;WEB;
 Marseille;43.296;5.369;Nom_Asso_Falucharde;Description_Acronyme;WESH;
 Nantes;47.218;-1.554;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres;
 Nice;43.700;7.268;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres;
@@ -30,7 +30,7 @@ Rouen;49.440;1.093;Nom_Asso_Falucharde;Description_Acronyme;La Pommelaise ? La P
 Toulon;43.125;5.930;Nom_Asso_Falucharde;Description_Acronyme;Nom_du_congres;
 Pau;43.295;-0.368;PAM;Description_Acronyme;La Pauyonnie;
 Amiens;;;;;;
-Angers;;;;;;
+Angers;47.473;-0.551;;;;
 Aix En Provence;;;;;;
 Besançon;;;;;;
 Bourg-en-bresse;;;;;;

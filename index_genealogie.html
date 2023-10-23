@@ -27,76 +27,7 @@
         </a>
     </nav>
     </br></br></br></br></br></br></br></br></br>
-    <div>
-        <svg width="400" height="400"></svg>
-        <script>
-          const data = {
-            name: "Moi",
-            children: [
-              {
-                name: "Père",
-                children: [
-                  {
-                    name: "Grand-père Paternel",
-                  },
-                  {
-                    name: "Grand-mère Paternelle",
-                  },
-                ],
-              },
-              {
-                name: "Mère",
-                children: [
-                  {
-                    name: "Grand-père Maternel",
-                  },
-                  {
-                    name: "Grand-mère Maternelle",
-                  },
-                ],
-              },
-            ],
-          };
-    
-          const width = 400;
-          const height = 400;
-    
-          const svg = d3.select("svg");
-          const treeLayout = d3.tree().size([width, height]);
-          const root = d3.hierarchy(data);
-          const treeData = treeLayout(root);
-    
-          const links = treeData.links();
-          const nodes = treeData.descendants();
-    
-          const link = svg
-            .selectAll(".link")
-            .data(links)
-            .enter()
-            .append("path")
-            .attr("class", "link")
-            .attr("d", (d) => {
-              return `M${d.source.x},${d.source.y} L${d.target.x},${d.target.y}`;
-            });
-    
-          const node = svg
-            .selectAll(".node")
-            .data(nodes)
-            .enter()
-            .append("g")
-            .attr("class", "node")
-            .attr("transform", (d) => `translate(${d.x},${d.y})`);
-    
-          node.append("circle").attr("r", 5);
-    
-          node
-            .append("text")
-            .attr("dy", "0.35em")
-            .attr("x", (d) => (d.parent ? 10 : -10))
-            .style("text-anchor", (d) => (d.parent ? "start" : "end"))
-            .text((d) => d.data.name);
-        </script>
-        
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTZGXhD11IePJHSrcN-qfAIUgwFmPxZxIMi3kl3Nl9Hb7l1wN4hnFwqzxcYnIvJ7KZyt8icwHmgncSU/pubhtml?widget=true&amp;headers=false"></iframe>
 
         Une question? Une suggestion? Une contribution? Contacte moi
         <A HREF="mailto:atlos@outlook.fr">ici</A>
